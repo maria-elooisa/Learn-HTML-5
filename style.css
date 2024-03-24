@@ -10,3 +10,18 @@ p {
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 text-align: justify;
 }
+
+
+.container{
+    display:flex;
+
+    flex-flow: wrap, row;
+}
+
+.container div{
+    background-color: blueviolet;
+    color:bisque;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
